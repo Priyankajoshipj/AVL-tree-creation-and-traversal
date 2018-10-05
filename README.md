@@ -9,6 +9,9 @@ Insertion time: O(logn)
 Deletion time: O(logn) 
 
 Insertion or Deletion may create imbalance in the tree which would require a rebalancing operation as defined below:
+
+Logic of Insertion:
+
 Rebalance: 
 
 Suppose the node to be rebalanced is X. There are 4 cases that we might have to fix (two are the mirror images of the other two):
@@ -47,3 +50,8 @@ Left-Right Double Rotation:
 	  a right rotation between X and its new left child. 
 
 Do the same process in opposite direction for Right-Lefy Double Rotation
+
+In the shared code you can find:
+
+	1.the implementation of node insertion
+	2.Inorder traversal
