@@ -1,15 +1,18 @@
 # AVL-tree-creation-and-traversal
 AVL trees or Adelson-Velskii and Landis tree named after the inventors is a balanced binary search tree With a balanced condition that:
-1. Pairs of sub-trees differ in height by at most 1.
-2. Every subtree is an AVL tree
 
-Search time: O(logn)
-Insertion time: O(logn) 
+	1. Pairs of sub-trees differ in height by at most 1.
+	2. Every subtree is an AVL tree
+
+Search time: O(logn) 
+Insertion time: O(logn)  
 Deletion time: O(logn) 
 
 Insertion or Deletion may create imbalance in the tree which would require a rebalancing operation as defined below:
 Rebalance: 
+
 Suppose the node to be rebalanced is X. There are 4 cases that we might have to fix (two are the mirror images of the other two):
+
 		Case 1. An insertion in the left subtree of the left child of X,
 		Case 2. An insertion in the right subtree of the left child of X,
 		Case 3. An insertion in the left subtree of the right child of X, or
